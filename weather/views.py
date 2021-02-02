@@ -4,7 +4,7 @@ from .models import City
 from .forms import CityForm
 # Create your views here.
 def index(request):
-	api_key = 'YOUR_API_KEY'
+	api_key = 'dd0e41e5941aef28d014de726e0c7939'
 	weather_data=[]
 	form=None
 	message=''
